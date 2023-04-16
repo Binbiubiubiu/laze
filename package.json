@@ -26,6 +26,7 @@
     "test": "echo test",
     "lint": "eslint .",
     "format": "prettier --write .",
+    "release": "changeset publish",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
     "changeset": "changeset"
