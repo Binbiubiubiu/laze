@@ -1,0 +1,60 @@
+{
+  "name": "laze",
+  "version": "1.0.0",
+  "private": "true",
+  "packageManager": "pnpm@8.1.0",
+  "description": "",
+  "author": "Binbiubiubiu <2632003786@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Binbiubiubiu/laze#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binbiubiubiu/laze.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Binbiubiubiu/laze/issues"
+  },
+  "keywords": [
+    "e"
+  ],
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "scripts": {
+    "build": "echo build",
+    "test": "echo test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "is-ci || husky install",
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@laze/commitlint-config": "workspace:*",
+    "@laze/eslint-config": "workspace:*",
+    "@laze/prettier-config": "workspace:*",
+    "@laze/tsconfig": "workspace:*",
+    "@types/node": "^18.15.11",
+    "eslint": "^8.38.0",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
+  },
+  "prettier": "@laze/prettier-config",
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,md,yaml}": [
+      "eslint --fix",
+      "prettier --write --ignore-unknown"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

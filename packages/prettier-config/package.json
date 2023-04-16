@@ -1,0 +1,33 @@
+{
+  "name": "@laze/prettier-config",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.1.0",
+  "description": "A ESLint config",
+  "author": "Binbiubiubiu <2632003786@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Binbiubiubiu/laze#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binbiubiubiu/laze.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Binbiubiubiu/laze/issues"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "laze"
+  ],
+  "main": "index.js",
+  "scripts": {},
+  "peerDependencies": {
+    "prettier": "^2.8.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.4.4"
+  }
+}

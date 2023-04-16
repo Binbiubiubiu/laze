@@ -1,0 +1,32 @@
+{
+  "name": "@laze/tsconfig",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.1.0",
+  "description": "tsconfig",
+  "author": "Binbiubiubiu <2632003786@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Binbiubiubiu/laze#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binbiubiubiu/laze.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Binbiubiubiu/laze/issues"
+  },
+  "keywords": [
+    "tsconfig",
+    "laze"
+  ],
+  "exports": {
+    ".": "./tsconfig.base.json",
+    "./*": "./tsconfig.*.json"
+  },
+  "main": "tsconfig.base.json",
+  "peerDependencies": {
+    "typescript": ">=5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
