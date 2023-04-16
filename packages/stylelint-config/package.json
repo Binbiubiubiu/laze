@@ -1,8 +1,8 @@
 {
   "name": "@laze/stylelint-config",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "packageManager": "pnpm@8.1.0",
-  "description": "A ESLint config",
+  "description": "A stylelint config",
   "author": "Binbiubiubiu <2632003786@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/Binbiubiubiu/laze#readme",
@@ -20,14 +20,20 @@
   "main": "index.js",
   "scripts": {},
   "peerDependencies": {
-    "@commitlint/cli": "^17.0.0"
+    "stylelint": "^15"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-standard": "^33.0.0"
+    "postcss": "^8.4.22",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.6",
+    "postcss-styl": "^0.12.3",
+    "stylelint-config-css-modules": "^4.2.0",
+    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.7.0"
   }
 }

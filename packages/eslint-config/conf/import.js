@@ -3,7 +3,7 @@ const typescript = require('eslint-plugin-import/config/recommended');
 
 const { jsExts, tsExts } = require('../constants');
 
-const allExtensions = [...jsExts, ...tsExts, '.json'];
+const allExtensions = [...jsExts, ...tsExts];
 
 module.exports = {
   recommended: {

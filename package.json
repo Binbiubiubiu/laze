@@ -38,12 +38,14 @@
     "@laze/commitlint-config": "workspace:*",
     "@laze/eslint-config": "workspace:*",
     "@laze/prettier-config": "workspace:*",
+    "@laze/stylelint-config": "workspace:*",
     "@laze/tsconfig": "workspace:*",
     "@types/node": "^18.15.11",
     "eslint": "^8.38.0",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
     "prettier": "^2.8.7",
+    "stylelint": "^15.5.0",
     "typescript": "^5.0.4"
   },
   "prettier": "@laze/prettier-config",
@@ -51,6 +53,9 @@
     "*.{ts,tsx,js,jsx,json,md,yaml}": [
       "eslint --fix",
       "prettier --write --ignore-unknown"
+    ],
+    "*.{css,less,scss,stylus,styl}": [
+      "stylelint --fix"
     ]
   },
   "publishConfig": {

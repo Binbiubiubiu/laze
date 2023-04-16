@@ -1,8 +1,8 @@
 {
   "name": "@laze/commitlint-config",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "packageManager": "pnpm@8.1.0",
-  "description": "A ESLint config",
+  "description": "A commitlint config",
   "author": "Binbiubiubiu <2632003786@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/Binbiubiubiu/laze#readme",
@@ -20,13 +20,13 @@
   "main": "index.js",
   "scripts": {},
   "peerDependencies": {
-    "@commitlint/cli": "^17.0.0"
+    "@commitlint/cli": "^17"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^17.4.4"
+    "@commitlint/config-conventional": "17.4.4"
   }
 }

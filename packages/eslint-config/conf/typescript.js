@@ -5,6 +5,8 @@ const globals = require('globals');
 const tsPlugin = require('@typescript-eslint/eslint-plugin');
 const tsParser = require('@typescript-eslint/parser');
 
+const jest = require('eslint-plugin-jest');
+
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json';
 const isTs = fs.existsSync(path.join(process.cwd(), tsconfig));
 
@@ -64,9 +66,9 @@ const configs = [
     },
   },
   {
-    files: ['**/__tests__/**/*.ts', '**/*.spec.ts', '**/*.test.ts'],
+    files: ['**/*.{test,spec,unit,e2e}.{ts,tsx,js,jsx}'],
     plugins: {
-      jest: require('eslint-plugin-jest'),
+      jest,
     },
     languageOptions: {
       ...languageOptions,
@@ -75,6 +77,7 @@ const configs = [
       },
     },
     rules: {
+      ...jest.configs.recommended.rules,
       // you should turn the original rule off *only* for test files
       '@typescript-eslint/unbound-method': 'off',
       'jest/unbound-method': 'error',
