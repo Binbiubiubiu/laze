@@ -1,3 +1,10 @@
 {
-  "extends": "@laze/tsconfig/base"
+  "extends": "@laze/tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declarationDir": "./dist-dts",
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["./test.ts"]
 }

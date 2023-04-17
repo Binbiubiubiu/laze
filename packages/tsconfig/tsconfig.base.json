@@ -2,8 +2,8 @@
   "$schema": "http://json.schemastore.org/tsconfig",
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es2015",
-    "module": "es2015",
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
     "allowJs": true,
     "resolveJsonModule": true,
