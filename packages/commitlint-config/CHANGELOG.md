@@ -1,5 +1,11 @@
 # @laze/commitlint-config
 
+## 0.0.2
+
+### Patch Changes
+
+- [`db36af6`](https://github.com/Binbiubiubiu/laze/commit/db36af6ecf7561997849acb6e93f0e37cee8b9da) Thanks [@Binbiubiubiu](https://github.com/Binbiubiubiu)! - add type `wip` and `scope-case` set to `kebab-case`
+
 ## 0.0.1
 
 ### Patch Changes
