@@ -51,5 +51,7 @@ MIT License.
 ## 🙏 感谢
 
 [@antfu/eslint-config](https://github.com/antfu/eslint-config) Anthony's ESLint config presets
-[@umijs/lint](https://github.com/umijs/umi) umi's lint
+
+[@umijs/lint](https://github.com/umijs/umi) umijs's lint
+
 [readme-gpt](https://github.com/ycjcl868/readme-gpt) About Generate your Github Readme with OpenAI and Vercel Edge Functions.
