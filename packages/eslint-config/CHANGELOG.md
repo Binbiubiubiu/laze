@@ -1,5 +1,11 @@
 # @laze/eslint-config
 
+## 0.0.3
+
+### Patch Changes
+
+- [`e9c60ba`](https://github.com/Binbiubiubiu/laze/commit/e9c60bafa7457e05e74c1cb7432c28a1238e23a6) Thanks [@Binbiubiubiu](https://github.com/Binbiubiubiu)! - docs vscode integration
+
 ## 0.0.2
 
 ### Patch Changes
