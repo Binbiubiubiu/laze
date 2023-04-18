@@ -36,6 +36,17 @@ module.exports = require('@laze/prettier-config');
 
 运行 `npm run format`（或 `pnpm format`）时，将自动使用 @laze/prettier-config 格式化您的代码。
 
+## vscode 配置
+
+```json
+{
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true
+}
+```
+
 ## 选项
 
 @laze/prettier-config 基于 [prettier 的默认选项](https://prettier.io/docs/en/options.html)，并进行了以下更改：

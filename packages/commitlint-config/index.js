@@ -1,5 +1,11 @@
 const config = require('@commitlint/config-conventional');
 
+config.prompt.questions.type.enum.wip = {
+  description: 'Work in progress, do not merge yet',
+  title: 'Work in progress',
+  emoji: '🚧',
+};
+
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {

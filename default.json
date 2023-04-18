@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":separateMultipleMajorReleases", ":onlyNpm"],
+  "timezone": "Asia/Shanghai",
+  "labels": ["renovate"],
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "semanticCommitType": "chore",
+      "automerge": true,
+      "automergeSchedule": ["before 3am on Monday"],
+      "schedule": ["after 1am and before 2am"]
+    }
+  ]
+}

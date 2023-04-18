@@ -42,6 +42,16 @@ module.exports = require('@laze/eslint-config/vue');
 module.exports = require('@laze/eslint-config/react');
 ```
 
+## vscode 配置
+
+仅支持最新的`eslint9`的`flat`配置
+
+```json
+{
+  "eslint.experimental.useFlatConfig": true
+}
+```
+
 ## 规则
 
 `@laze/eslint-config` 规则的基础来源于 [eslint-config-standard](https://github.com/standard/eslint-config-standard)，在此基础上做了一些个性化的调整。详细的规则可以查看对应的配置文件：
