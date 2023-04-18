@@ -1,5 +1,13 @@
 # @laze/eslint-config
 
+## 0.0.5
+
+### Patch Changes
+
+- [`677dfa3`](https://github.com/Binbiubiubiu/laze/commit/677dfa38d103715336afc8a32e3ea5b0a474e1ff) Thanks [@Binbiubiubiu](https://github.com/Binbiubiubiu)! - update eslint peer version
+
+- [`8a0eba6`](https://github.com/Binbiubiubiu/laze/commit/8a0eba678a0dd8100d27d9a8f2a846b680a250c4) Thanks [@Binbiubiubiu](https://github.com/Binbiubiubiu)! - fix jest error
+
 ## 0.0.4
 
 ### Patch Changes
