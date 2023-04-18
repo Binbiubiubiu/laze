@@ -1,5 +1,11 @@
 # @laze/commitlint-config
 
+## 0.0.4
+
+### Patch Changes
+
+- [#7](https://github.com/Binbiubiubiu/laze/pull/7) [`0f96184`](https://github.com/Binbiubiubiu/laze/commit/0f961841c295086890cefd030d968a826dc3ea62) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @commitlint/config-conventional to v17.6.1
+
 ## 0.0.3
 
 ### Patch Changes
