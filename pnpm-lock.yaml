@@ -151,12 +151,6 @@ importers:
 
   packages/tsconfig: {}
 
-  renovate-config:
-    devDependencies:
-      renovate:
-        specifier: ^35.50.1
-        version: 35.50.1
-
 packages:
 
   /@arcanis/slice-ansi@1.1.1:
