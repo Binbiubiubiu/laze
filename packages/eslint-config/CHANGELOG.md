@@ -1,5 +1,11 @@
 # @laze/eslint-config
 
+## 0.0.4
+
+### Patch Changes
+
+- [#8](https://github.com/Binbiubiubiu/laze/pull/8) [`7100d1d`](https://github.com/Binbiubiubiu/laze/commit/7100d1d00c36089c8186fd28fc47f7e50bd208ff) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v5.59.0
+
 ## 0.0.3
 
 ### Patch Changes
