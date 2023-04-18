@@ -6,13 +6,15 @@ module.exports = {
     vue,
   },
   languageOptions: {
-    sourceType: 'module',
-    ecmaVersion: 2020,
+    // sourceType: 'module',
+    // ecmaVersion: 2020,
+    ...vue.configs.base.parserOptions,
     parser: require('vue-eslint-parser'),
     parserOptions: {
+      ...vue.configs.base.parserOptions,
       parser: '@typescript-eslint/parser',
-      sourceType: 'module',
-      ecmaVersion: 2020,
+      // sourceType: 'module',
+      // ecmaVersion: 2020,
     },
   },
   rules: {

@@ -1,5 +1,5 @@
 const recommended = require('eslint-plugin-import/config/recommended');
-const typescript = require('eslint-plugin-import/config/recommended');
+const typescript = require('eslint-plugin-import/config/typescript');
 
 const { jsExts, tsExts } = require('../constants');
 
@@ -7,11 +7,11 @@ const allExtensions = [...jsExts, ...tsExts];
 
 module.exports = {
   recommended: {
-    languageOptions: {
-      ecmaVersion: recommended.parserOptions.ecmaVersion,
-      sourceType: recommended.parserOptions.sourceType,
-      parserOptions: recommended.parserOptions,
-    },
+    // languageOptions: {
+    //   ecmaVersion: recommended.parserOptions.ecmaVersion,
+    //   sourceType: recommended.parserOptions.sourceType,
+    //   parserOptions: recommended.parserOptions,
+    // },
     settings: {
       'import/extensions': jsExts,
       'import/resolver': {

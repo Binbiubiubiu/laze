@@ -19,6 +19,10 @@
     "laze"
   ],
   "main": "base.js",
+  "exports": {
+    ".": "./base.js",
+    "./*": "./*.js"
+  },
   "scripts": {},
   "peerDependencies": {
     "eslint": "^8.23",

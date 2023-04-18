@@ -65,7 +65,7 @@ const configs = [
       ...tsPlugin.configs['recommended-requiring-type-checking'].rules,
     },
   },
-  {
+  detectJestVersion() && {
     files: ['**/*.{test,spec,unit,e2e}.{ts,tsx,js,jsx}'],
     plugins: {
       jest,
@@ -83,6 +83,16 @@ const configs = [
       'jest/unbound-method': 'error',
     },
   },
-];
+].filter(Boolean);
+
+function detectJestVersion() {
+  try {
+    const pkg = require.resolve('jest/package.json', {
+      paths: [process.cwd()],
+    });
+
+    return require(pkg).version;
+  } catch {}
+}
 
 module.exports = isTs ? configs : [];
