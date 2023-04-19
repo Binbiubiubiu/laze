@@ -1,5 +1,11 @@
 # @laze/eslint-config
 
+## 0.0.7
+
+### Patch Changes
+
+- [`449e671`](https://github.com/Binbiubiubiu/laze/commit/449e671b4ea42ab768d8e4116be15137d1e0eca7) Thanks [@Binbiubiubiu](https://github.com/Binbiubiubiu)! - fix markdown glob
+
 ## 0.0.6
 
 ### Patch Changes
