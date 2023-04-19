@@ -4,7 +4,7 @@ const yml = require('eslint-plugin-yml');
 const overrides = yml.configs.base.overrides[0];
 
 module.exports = {
-  files: overrides.files,
+  files: ['**/*.yaml', '**/*.yml'],
   languageOptions: {
     parser: ymlParser,
   },

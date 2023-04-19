@@ -1,7 +1,7 @@
 const jsoncParser = require('jsonc-eslint-parser');
 
 module.exports = {
-  files: ['package.json'],
+  files: ['**/package.json'],
   languageOptions: {
     parser: jsoncParser,
   },

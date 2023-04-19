@@ -3,7 +3,7 @@ const jsoncParser = require('jsonc-eslint-parser');
 
 const overrides = jsonc.configs.base.overrides[0];
 module.exports = {
-  files: overrides.files,
+  files: ['**/*.json', '**/*.json5', '**/*.jsonc'],
   languageOptions: {
     parser: jsoncParser,
   },
