@@ -1,5 +1,11 @@
 # @laze/eslint-config
 
+## 0.0.6
+
+### Patch Changes
+
+- [`0000708`](https://github.com/Binbiubiubiu/laze/commit/00007082ed43ad8526bbd08951db7cbd46d959bb) Thanks [@Binbiubiubiu](https://github.com/Binbiubiubiu)! - fix json yml
+
 ## 0.0.5
 
 ### Patch Changes
