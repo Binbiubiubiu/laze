@@ -18,11 +18,11 @@
     "eslint-config",
     "laze"
   ],
-  "main": "base.js",
   "exports": {
     ".": "./base.js",
     "./*": "./*.js"
   },
+  "main": "base.js",
   "scripts": {},
   "peerDependencies": {
     "eslint": "^8.37",
