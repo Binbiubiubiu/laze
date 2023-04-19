@@ -1,15 +1,18 @@
 const markdown = require('eslint-plugin-markdown');
 
-const [md, asserts] = markdown.configs.recommended.overrides;
+const [, asserts] = markdown.configs.recommended.overrides;
 module.exports = [
   {
     plugins: {
       markdown,
     },
-    ...md,
   },
   {
-    files: asserts.files,
+    files: ['**/*.md'],
+    processor: 'markdown/markdown',
+  },
+  {
+    files: ['**/*.md/**'],
     languageOptions: {
       parserOptions: asserts.parserOptions,
     },
