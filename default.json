@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":separateMultipleMajorReleases", ":onlyNpm"],
   "timezone": "Asia/Shanghai",
-  "labels": ["renovate"],
+  "labels": ["renovate", "dependency"],
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
