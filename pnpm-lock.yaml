@@ -47,8 +47,8 @@ importers:
   packages/commitlint-config:
     dependencies:
       '@commitlint/config-conventional':
-        specifier: 17.6.1
-        version: 17.6.1
+        specifier: 17.6.3
+        version: 17.6.3
 
   packages/eslint-config:
     dependencies:
@@ -376,8 +376,8 @@ packages:
       conventional-changelog-conventionalcommits: 5.0.0
     dev: false
 
-  /@commitlint/config-conventional@17.6.1:
-    resolution: {integrity: sha512-ng/ybaSLuTCH9F+7uavSOnEQ9EFMl7lHEjfAEgRh1hwmEe8SpLKpQeMo2aT1IWvHaGMuTb+gjfbzoRf2IR23NQ==}
+  /@commitlint/config-conventional@17.6.3:
+    resolution: {integrity: sha512-bLyHEjjRWqlLQWIgYFHmUPbEFMOOLXeF3QbUinDIJev/u9e769tkoTH9YPknEywiuIrAgZaVo+OfzAIsJP0fsw==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
