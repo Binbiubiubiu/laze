@@ -52,7 +52,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-unicorn": "46.0.1",
     "eslint-plugin-unused-imports": "2.0.0",
-    "eslint-plugin-vue": "9.11.0",
+    "eslint-plugin-vue": "9.11.1",
     "eslint-plugin-yml": "1.5.0",
     "globals": "13.20.0"
   }
