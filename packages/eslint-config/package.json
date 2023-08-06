@@ -1,7 +1,7 @@
 {
   "name": "@laze/eslint-config",
   "version": "0.0.7",
-  "packageManager": "pnpm@8.5.1",
+  "packageManager": "pnpm@8.6.12",
   "description": "A esLint config",
   "author": "Binbiubiubiu <2632003786@qq.com>",
   "license": "MIT",
