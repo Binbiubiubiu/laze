@@ -1,5 +1,11 @@
 # @laze/prettier-config
 
+## 0.0.4
+
+### Patch Changes
+
+- [`8c1c84d`](https://github.com/Binbiubiubiu/laze/commit/8c1c84dc3b254c06b648bd7a1254efc7a5d622e1) Thanks [@Binbiubiubiu](https://github.com/Binbiubiubiu)! - change peerDependencies
+
 ## 0.0.3
 
 ### Patch Changes
