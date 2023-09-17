@@ -25,8 +25,8 @@
   "main": "base.js",
   "scripts": {},
   "peerDependencies": {
-    "eslint": "^8.37",
-    "typescript": "^5"
+    "eslint": ">=8.37",
+    "typescript": ">=5"
   },
   "peerDependenciesMeta": {
     "typescript": {

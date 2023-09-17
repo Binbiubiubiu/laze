@@ -20,7 +20,7 @@
   "main": "index.js",
   "scripts": {},
   "peerDependencies": {
-    "@commitlint/cli": "^17"
+    "@commitlint/cli": ">=17"
   },
   "publishConfig": {
     "access": "public",
