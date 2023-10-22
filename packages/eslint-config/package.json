@@ -54,6 +54,6 @@
     "eslint-plugin-unused-imports": "2.0.0",
     "eslint-plugin-vue": "9.17.0",
     "eslint-plugin-yml": "1.10.0",
-    "globals": "13.20.0"
+    "globals": "13.23.0"
   }
 }
